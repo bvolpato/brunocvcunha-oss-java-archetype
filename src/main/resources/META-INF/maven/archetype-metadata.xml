@@ -16,4 +16,24 @@
 			<defaultValue>true</defaultValue>
 		</requiredProperty>
 	</requiredProperties>
+
+	<fileSets>
+		<fileSet filtered="true">
+            <directory/>
+			<includes>
+				<include>LICENSE</include>
+				<include>.gitignore</include>
+				<include>.travis.yml</include>
+				<include>README.md</include>
+			</includes>
+			<!--excludes> <exclude>**/*.xml</exclude> </excludes -->
+		</fileSet>
+
+		<fileSet filtered="true" packaged="true">
+			<directory>src/main/java</directory>
+		</fileSet>
+		<fileSet filtered="true" packaged="true">
+			<directory>src/test/java</directory>
+		</fileSet>
+	</fileSets>
 </archetype-descriptor>
