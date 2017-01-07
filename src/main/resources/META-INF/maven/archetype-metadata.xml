@@ -1,0 +1,13 @@
+<archetype-descriptor name="basic">
+	<requiredProperties>
+		<requiredProperty key="useSelenium">
+			<defaultValue>false</defaultValue>
+		</requiredProperty>
+		<requiredProperty key="useJsoup">
+			<defaultValue>false</defaultValue>
+		</requiredProperty>
+		<requiredProperty key="useLombok">
+			<defaultValue>true</defaultValue>
+		</requiredProperty>
+	</requiredProperties>
+</archetype-descriptor>

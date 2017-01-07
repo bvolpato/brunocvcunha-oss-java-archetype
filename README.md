@@ -9,5 +9,8 @@ mvn archetype:generate  -DarchetypeGroupId=org.brunocvcunha  \
   -DarchetypeVersion=1.0-SNAPSHOT  \
   -DgroupId=org.brunocvcunha.projectname  \
   -DartifactId=projectname \
-  -Dversion=1.0-SNAPSHOT
+  -Dversion=1.0-SNAPSHOT \
+  -DuseLombok=true \
+  -DuseJsoup=true \
+  -DuseSelenium=true
 ```
