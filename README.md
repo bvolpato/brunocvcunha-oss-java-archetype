@@ -12,5 +12,7 @@ mvn archetype:generate  -DarchetypeGroupId=org.brunocvcunha  \
   -Dversion=1.0-SNAPSHOT \
   -DuseLombok=true \
   -DuseJsoup=true \
+  -DuseGhostMe=true \
+  -DuseInutils=true \
   -DuseSelenium=true
 ```

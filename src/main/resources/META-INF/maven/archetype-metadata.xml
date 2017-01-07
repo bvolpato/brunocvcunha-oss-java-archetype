@@ -9,5 +9,11 @@
 		<requiredProperty key="useLombok">
 			<defaultValue>true</defaultValue>
 		</requiredProperty>
+		<requiredProperty key="useGhostMe">
+			<defaultValue>true</defaultValue>
+		</requiredProperty>
+		<requiredProperty key="useInutils">
+			<defaultValue>true</defaultValue>
+		</requiredProperty>
 	</requiredProperties>
 </archetype-descriptor>
