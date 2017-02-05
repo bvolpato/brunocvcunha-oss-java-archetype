@@ -1,6 +1,6 @@
 <!--
 
-    Copyright (C) 2016 Bruno Candido Volpato da Cunha (brunocvcunha@gmail.com)
+    Copyright (C) 2017 Bruno Candido Volpato da Cunha (brunocvcunha@gmail.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -25,7 +25,7 @@
 	<name>${artifactId}</name>
 	<description>${artifactId}</description>
 	<url>http://github.com/brunocvcunha/${artifactId}</url>
-	<inceptionYear>2016</inceptionYear>
+	<inceptionYear>2017</inceptionYear>
 
 	<licenses>
 		<license>
@@ -44,9 +44,9 @@
 	</developers>
 
 	<scm>
-		<connection>scm:git:git@github.com:brunocvcunha/inutils4j.git</connection>
-		<developerConnection>scm:git:git@github.com:brunocvcunha/inutils4j.git</developerConnection>
-		<url>git@github.com:brunocvcunha/inutils4j.git</url>
+		<connection>scm:git:git@github.com:brunocvcunha/${artifactId}.git</connection>
+		<developerConnection>scm:git:git@github.com:brunocvcunha/${artifactId}.git</developerConnection>
+		<url>git@github.com:brunocvcunha/${artifactId}.git</url>
 	</scm>
 
 	<properties>
@@ -167,7 +167,7 @@
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>0.7.7.201606060606</version>
+				<version>0.7.8</version>
 				<executions>
 					<execution>
 						<id>prepare-agent</id>

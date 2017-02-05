@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2016 Bruno Candido Volpato da Cunha (brunocvcunha@gmail.com)
+ * Copyright (C) 2017 Bruno Candido Volpato da Cunha (brunocvcunha@gmail.com)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,6 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package ${package};
+
 public class App {
     
     //TODO: build app!
